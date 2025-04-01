@@ -1,0 +1,74 @@
+{
+  "name": "ecmascript-studies",
+  "version": "1.0.0",
+  "description": "Projeto de estudos ECMAScript com React, Bootstrap e Node.js",
+  "main": "server.js",
+  "type": "module",
+  "projectConfig": {
+    "sobre": {
+      "autor": "Eliseu Mendes",
+      "versaoECMAScript": "ES2023",
+      "descricao": "Repositório para estudos de JavaScript moderno"
+    },
+    "progresso": {
+      "modulosCompletos": 0,
+      "exerciciosResolvidos": 0,
+      "totalModulos": 8,
+      "totalExercicios": 24,
+      "porcentagemConclusao": 0
+    },
+    "recursos": {
+      "referencias": [
+        {
+          "nome": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+          "tipo": "Documentação"
+        }
+      ]
+    },
+    "roteiroEstudos": {
+      "atual": {
+        "modulo": "Fundamentos Básicos",
+        "topico": "Arrow Functions"
+      }
+    }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "react-scripts start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "update-progress": "node ./scripts/updateProgress.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "chokidar": "^3.6.0",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
