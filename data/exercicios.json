@@ -1,0 +1,20 @@
+{
+  "exercicios": [
+    {
+      "id": 1,
+      "titulo": "Calculadora Simples",
+      "descricao": "Crie uma função que recebe dois números e uma operação e retorne o resultado",
+      "codigo": "function calculadora(num1, num2, operacao) {\n  // Implemente aqui\n}",
+      "solucao": "function calculadora(num1, num2, operacao) {\n  switch(operacao) {\n    case '+': return num1 + num2;\n    case '-': return num1 - num2;\n    case '*': return num1 * num2;\n    case '/': return num1 / num2;\n    default: return 'Operação inválida';\n  }\n}",
+      "dificuldade": "Iniciante"
+    },
+    {
+      "id": 2,
+      "titulo": "Palíndromo",
+      "descricao": "Escreva uma função que verifica se uma palavra é palíndromo",
+      "codigo": "function ehPalindromo(palavra) {\n  // Implemente aqui\n}",
+      "solucao": "function ehPalindromo(palavra) {\n  return palavra === palavra.split('').reverse().join('');\n}",
+      "dificuldade": "Iniciante"
+    }
+  ]
+}

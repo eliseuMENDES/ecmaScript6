@@ -1,0 +1,27 @@
+{
+  "modulos": [
+    {
+      "id": 1,
+      "titulo": "Fundamentos Básicos",
+      "concluido": false,
+      "topicos": [
+        "Sintaxe e estrutura",
+        "Variáveis (let, const, var)",
+        "Tipos de dados primitivos",
+        "Operadores",
+        "Estruturas de controle"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Conceitos Intermediários",
+      "concluido": false,
+      "topicos": [
+        "Funções (arrow functions)",
+        "Escopos",
+        "Arrays e métodos",
+        "Objetos e manipulação"
+      ]
+    }
+  ]
+}
